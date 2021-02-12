@@ -1,0 +1,184 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dprr: <http://romanrepublic.ac.uk/rdf/ontology#>.
+@prefix fpo: <https://github.com/johnBradley501/FPO/raw/master/fpo.owl#>.
+@prefix ex: <https://junjun7613.github.io/roman_factoid/roman_factoid.owl#>.
+
+<http://www.example.com/roman-ontology/entity/Pers_1>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_1>;
+	owl:sameAs <https://www.wikidata.org/wiki/Q458835>;
+	ex:name "Orgetorix"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_2>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_2>;
+	owl:sameAs <https://www.wikidata.org/wiki/Q942646>;
+	ex:name "Casticus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_3>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_2>;
+	owl:sameAs <https://www.wikidata.org/wiki/Q635589>;
+	ex:name "Catamantaloedes"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_4>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_3>;
+	owl:sameAs <https://www.wikidata.org/wiki/Q370220>;
+	ex:name "Dumnorix"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_5>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_3>;
+	owl:sameAs <https://www.wikidata.org/wiki/Q265757>;
+	ex:name "Diviciacus(Haedui)"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_6>
+	a fpo:Person;
+	ex:nomen "Caius"^^xsd:string;
+	ex:praenomen "Iulius"^^xsd:string;
+	ex:cognomen "Caesar"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "C.IuliusCaesar"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_7>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_1>;
+	ex:name "Nammeius"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_8>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_1>;
+	ex:name "Verucloetius"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_9>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_1>;
+	ex:name "daughterOfOrgetorix"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_10>
+	a fpo:Person;
+	ex:nomen "Titus"^^xsd:string;
+	ex:praenomen "Labienus"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "T.Labienus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_11>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_1>;
+	ex:name "Divico"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_12>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_3>;
+	ex:name "Liscus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_13>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_3>;
+	ex:name "motherOfDumnorix"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_14>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_18>;
+	ex:name "princepsBiturigiorum(BG, 18, 6)"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_15>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "C.ValeriusTroucillus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_16>
+	a fpo:Person;
+	ex:nomen "Publius"^^xsd:string;
+	ex:praenomen "Considius"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "P.Considius"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_17>
+	a fpo:Person;
+	ex:nomen "Marcus "^^xsd:string;
+	ex:praenomen "Licinius"^^xsd:string;
+	ex:cognomen "Crassus"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "M.LiciniusCrassus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_18>
+	a fpo:Person;
+	ex:nomen "Lucius"^^xsd:string;
+	ex:praenomen "Cornelius"^^xsd:string;
+	ex:cognomen "Sulla"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "L.CorneliusSullaFelix"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_19>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_22>;
+	ex:name "Ariovistus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_20>
+	a fpo:Person;
+	ex:nomen "Marcus "^^xsd:string;
+	ex:praenomen "Mettius"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "M.Mettius"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_21>
+	a fpo:Person;
+	ex:nomen "Quintus"^^xsd:string;
+	ex:praenomen "Pedius"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "Q.Pedius"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_22>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_25>;
+	ex:name "Iccius"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_23>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_25>;
+	ex:name "Andecumborius"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_24>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_26>;
+	ex:name "Diviciacus(Suessiones)"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_25>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_26>;
+	ex:name "Galba"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_26>
+	a fpo:Person;
+	ex:nomen "Quintus"^^xsd:string;
+	ex:praenomen "Titurius"^^xsd:string;
+	ex:cognomen "Sabinus"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "Q.TituriusSabinus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_27>
+	a fpo:Person;
+	ex:nomen "Lucius"^^xsd:string;
+	ex:praenomen "Aurunculeius"^^xsd:string;
+	ex:cognomen "Cotta"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "L.AurunculeiusCotta"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_28>
+	a fpo:Person;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_28>;
+	ex:name "Boduognatus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Pers_29>
+	a fpo:Person;
+	ex:nomen "Publius"^^xsd:string;
+	ex:praenomen "Licinius"^^xsd:string;
+	ex:cognomen "Crassus"^^xsd:string;
+	ex:isPartOf <http://www.example.com/roman-ontology/entity/Comm_41>;
+	ex:name "P.LiciniusCrassus"^^xsd:string.
+

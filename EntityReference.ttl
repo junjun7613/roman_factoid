@@ -1,0 +1,858 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dprr: <http://romanrepublic.ac.uk/rdf/ontology#>.
+@prefix fpo: <https://github.com/johnBradley501/FPO/raw/master/fpo.owl#>.
+@prefix ex: <https://junjun7613.github.io/roman_factoid/roman_factoid.owl#>.
+
+<http://www.example.com/roman-ontology/entity/Pers_1_BG_rel1>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_1_21_22>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_agitator>.
+
+<http://www.example.com/roman-ontology/entity/Pers_2_BG_rel1>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_2_21_22>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_2>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_agitated>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel1>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_4_21_22>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_agitated>.
+
+<http://www.example.com/roman-ontology/entity/Pers_3_BG_rel2>
+	a fpo:PersonReference;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_3>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_father>.
+
+<http://www.example.com/roman-ontology/entity/Pers_2_BG_rel2>
+	a fpo:PersonReference;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_2>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_son>.
+
+<http://www.example.com/roman-ontology/entity/Pers_5_BG_rel4>
+	a fpo:PersonReference;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_5>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_elderBrother>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel4>
+	a fpo:PersonReference;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_youngerBrother>.
+
+<http://www.example.com/roman-ontology/entity/Comm_1_BG_rel5>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_1_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Comm_4_BG_rel5>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_4_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiated>.
+
+<http://www.example.com/roman-ontology/entity/Comm_5_BG_rel5>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_5_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_5>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiated>.
+
+<http://www.example.com/roman-ontology/entity/Comm_6_BG_rel5>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_6_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiated>.
+
+<http://www.example.com/roman-ontology/entity/Comm_7_BG_rel5>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_7_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_7>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiated>.
+
+<http://www.example.com/roman-ontology/entity/Comm_1_BG_rel9>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_1_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel9>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_7_BG_rel9>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_7_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_7>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Pers_8_BG_rel9>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_8_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_8>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel11>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Comm_1_BG_rel11>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_1_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Comm_1_BG_rel12>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_1_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel12>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_4_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel13>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_4_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_influencer>.
+
+<http://www.example.com/roman-ontology/entity/Comm_2_BG_rel13>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_2_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_2>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_influenced>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel14>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_4_21_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_husband>.
+
+<http://www.example.com/roman-ontology/entity/Pers_9_BG_rel14>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_9_21_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_9>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_wife>.
+
+<http://www.example.com/roman-ontology/entity/Pers_9_BG_rel15>
+	a fpo:PersonReference;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_9>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_daughter>.
+
+<http://www.example.com/roman-ontology/entity/Pers_1_BG_rel15>
+	a fpo:PersonReference;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_father>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel16>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_4_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_requester>.
+
+<http://www.example.com/roman-ontology/entity/Comm_2_BG_rel16>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_2_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_2>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_accepter>.
+
+<http://www.example.com/roman-ontology/entity/Comm_1_BG_rel18>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_1_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_2_BG_rel18>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_2_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_2>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel18>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_4_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_mediator>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel19>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Pers_10_BG_rel19>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_10_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_10>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Comm_3_BG_rel20>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_3_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_3>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel20>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Comm_16_BG_rel21>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_16_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_16>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel21>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Comm_16_BG_rel17>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/**>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_16>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_3_BG_rel17>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/**>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_3>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_8_BG_rel22>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_8_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_8>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel22>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Comm_1_BG_rel23>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_1_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel23>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_11_BG_rel23>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_11_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_11>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Comm_3_BG_rel26>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_3_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_3>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_provider>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel26>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel27>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Comm_3_BG_rel27>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_3_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_3>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel28>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Gr_1_BG_rel28>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Gr_1_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Gr_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_5_BG_rel28>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_5_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_5>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_12_BG_rel28>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_12_22_25>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_12>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel29>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_4_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_supporter>.
+
+<http://www.example.com/roman-ontology/entity/Comm_1_BG_rel29>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_1_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_supported>.
+
+<http://www.example.com/roman-ontology/entity/Pers_12_BG_rel30>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_12_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_12>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel30>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_4_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_13_BG_rel32>
+	a fpo:PersonReference;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_13>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_mother>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel32>
+	a fpo:PersonReference;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_son>.
+
+<http://www.example.com/roman-ontology/entity/Pers_13_BG_rel33>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_13_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_13>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_wife>.
+
+<http://www.example.com/roman-ontology/entity/Pers_14_BG_rel33>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_14_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_14>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_husband>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel34>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_5_BG_rel34>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_5_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_5>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_15_BG_rel34>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_15_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_15>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel35>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_criticizer>.
+
+<http://www.example.com/roman-ontology/entity/Pers_5_BG_rel35>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_5_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_5>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_4_BG_rel35>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_4_22_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_4>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_criticized>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel36>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Pers_10_BG_rel36>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_10_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_10>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel37>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Pers_16_BG_rel37>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_16_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_16>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel38>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Comm_19_BG_rel38>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_19_23_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_19>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel39>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Comm_1_BG_rel39>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_1_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel40>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_23_24>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiated>.
+
+<http://www.example.com/roman-ontology/entity/Comm_3_BG_rel40>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_3_22_24>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_3>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Comm_7_BG_rel41>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_7_24_26>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_7>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_immigrant>.
+
+<http://www.example.com/roman-ontology/entity/Comm_3_BG_41>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_3_24_26>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_3>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel42>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiated>.
+
+<http://www.example.com/roman-ontology/entity/Pers_5_BG_rel42>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_5_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_5>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Gr_1_BG_rel42>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Gr_1_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Gr_1>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Gr_2_BG_rel42>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Gr_2_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Gr_2>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Pers_19_BG_rel43>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_19_35_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_19>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_controler>.
+
+<http://www.example.com/roman-ontology/entity/Comm_3_BG_rel43>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_3_35_26>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_3>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_controled>.
+
+<http://www.example.com/roman-ontology/entity/Comm_2_BG_rel43>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_2_35_26>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_2>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_controled>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel45>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_19_BG_rel45>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_19_35_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_19>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Comm_3_BG_rel46>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_3_24_26>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_3>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel46>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Comm_23_BG_rel47>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_23_24_26>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_23>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel47>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_19_BG_rel48>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_19_35_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_19>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel48>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel49>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_19_BG_rel49>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_19_35_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_19>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_19_BG_rel50>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_19_35_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_19>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel50>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel51>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Pers_15_BG_rel51>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_15_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_15>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel52>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Pers_20_BG_rel52>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_20_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_20>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_19_BG_rel53>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_19_35_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_19>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_host>.
+
+<http://www.example.com/roman-ontology/entity/Pers_20_BG_rel53>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_20_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_20>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_guest>.
+
+<http://www.example.com/roman-ontology/entity/Pers_19_BG_rel54>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_19_35_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_19>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_imprison>.
+
+<http://www.example.com/roman-ontology/entity/Pers_15_BG_rel54>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_15_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_15>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_imprisoned>.
+
+<http://www.example.com/roman-ontology/entity/Pers_20_BG_rel54>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_20_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_20>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_imprisoned>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel55>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Pers_10_BG_rel55>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_10_24_26>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_10>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_10_BG_rel74>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_10_26_27>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_10>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel74>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_26_27>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_21_BG_rel75>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_21_26_27>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_21>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel75>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_26_27>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Comm_25_BG_rel76>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_25_27_28>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_25>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel76>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_22_BG_rel76>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_22_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_22>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Pers_23_BG_rel76>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_23_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_23>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Comm_25_BG_rel79>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/**>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_25>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_26_BG_rel79>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/**>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_26>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_26_BG_rel80>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_26_27_28>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_26>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiated>.
+
+<http://www.example.com/roman-ontology/entity/Comm_25_BG_rel80>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_25_27_28>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_25>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_negotiator>.
+
+<http://www.example.com/roman-ontology/entity/Comm_26_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_26_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_26>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_27_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_27_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_27>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_28_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_28_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_28>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_29_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_29_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_29>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_30_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_30_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_30>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_31_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_31_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_31>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_32_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_32_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_32>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_33_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_33_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_33>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_34_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_34_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_34>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_35_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_35_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_35>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_36_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_36_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_36>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_37_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_37_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_37>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_38_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_38_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_38>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_39_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_39_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_39>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Comm_40_BG_rel81>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_40_26_34>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_40>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_neutral>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel82>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Comm_25_BG_rel82>
+	a ex:CommunityReference;
+	ex:referencesCommunityInContext <http://www.example.com/roman-ontology/entity/Comm_25_27_28>;
+	ex:referencesCommunity <http://www.example.com/roman-ontology/entity/Comm_25>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel83>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Pers_5_BG_rel83>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_5_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_5>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel84>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commander>.
+
+<http://www.example.com/roman-ontology/entity/Pers_26_BG_rel84>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_26_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_26>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_commanded>.
+
+<http://www.example.com/roman-ontology/entity/Pers_6_BG_rel85>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_6_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_6>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_receiver>.
+
+<http://www.example.com/roman-ontology/entity/Pers_22_BG_rel85>
+	a fpo:PersonReference;
+	ex:referencesPersonInContext <http://www.example.com/roman-ontology/entity/Pers_22_27_28>;
+	fpo:referencesPerson <http://www.example.com/roman-ontology/entity/Pers_22>;
+	fpo:hasRole <http://www.example.com/roman-ontology/entity/Role_sender>.
+
