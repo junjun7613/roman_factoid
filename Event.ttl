@@ -1,0 +1,311 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dprr: <http://romanrepublic.ac.uk/rdf/ontology#>.
+@prefix fpo: <https://github.com/johnBradley501/FPO/raw/master/fpo.owl#>.
+@prefix ex: <https://junjun7613.github.io/roman_factoid/roman_factoid.owl#>.
+
+<http://www.example.com/roman-ontology/entity/Ev_21>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_22>;
+	ex:description "Orgetorix's suggestion for emigration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_22>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_23>;
+	ex:description "Orgetorix's death"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_23>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_24>;
+	ex:description "Caesar arrived into Gaul"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_24>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_25>;
+	ex:description "Caesar defeated the Helvetii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_25>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_26>;
+	ex:description "conversation between Caesar and Ariovistus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_26>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_27>;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_33>;
+	ex:description "Caesar defeated Ariovistus and back to Gallia citerior"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_27>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_28>;
+	ex:description "Caesar marched into the territory of Belgae"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_28>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_29>;
+	ex:description "Belgae dismissed the army against Remi"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_29>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_30>;
+	ex:description "civitas Suessionum surrendered to Caesar"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_30>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_31>;
+	ex:description "civitas Bellovacorum surrendered to Caesar"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_31>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_32>;
+	ex:description "civitas Nerviorum surrendered to Caesar"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_32>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_34>;
+	ex:description "Caesar destroyed civitas Atuatucorum"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_33>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_34>;
+	ex:description "P. Crassus conquered the tribus along the Atlantic"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_34>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/EV_36>;
+	ex:description "Caesar back to Northern Italy"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_35>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_24>;
+	ex:description "Ariovistus invaded into Gaul"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_36>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_37>;
+	ex:description "Revolt of the atlantic tribes"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_37>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_38>;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_39>;
+	ex:description "Caesar back to Gaul in 56BC"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_38>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_40>;
+	ex:description "Caesar defeated Venetii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_39>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_40>;
+	ex:description "Q.TituliusSabinus defeated Venelli"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_40>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_41>;
+	ex:description "Caesar settled the revolts in 56BC"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_41>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_42>;
+	ex:description "Caesar decided to wage war againt Germani"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_42>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_43>;
+	ex:description "Caesar crossed the Rhine"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_43>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_44>;
+	ex:description "Caesar saled to Britannia"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_44>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_45>;
+	ex:description "Caesar back to Gaul from Britannia"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_45>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_46>;
+	ex:description "Caesar departed Gaul to North Italy"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_46>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_47>;
+	ex:description "Caesar back to Gaul"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_47>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_48>;
+	ex:description "Caesar saled to Britannia "^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_48>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_49>;
+	ex:description "Caesa back to Gaul from Britannia"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_49>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_50>;
+	ex:description "Ambiorix defeated Romans"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_50>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_51>;
+	ex:description "Caesar defeated Belges"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_51>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_52>;
+	ex:description "Labienus defeated Indutiomarus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_52>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_53>;
+	ex:description "Labienus defeated Treverii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_53>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_54>;
+	ex:description "Caesar crossed the Rhine"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_54>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_56>;
+	ex:description "Caesar back to Gaul across Rhine"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_56>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_57>;
+	ex:description "Caesar departed Gaul to North Italy"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_57>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_58>;
+	ex:description "Caesar arrived at Narbonne"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_58>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_59>;
+	ex:description "Caesar destroys Avaricum"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_59>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_61>;
+	ex:description "Battle of Gergovia"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_60>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_61>;
+	ex:description "Labienus defeated Parisii at Lutetia"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_61>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_62>;
+	ex:description "End of the battle of Alesia"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_62>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_63>;
+	ex:description "Caesar defeated Correus of Bellovaci"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_63>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_64>;
+	ex:description "Caesar departed Gaul to Narbonne"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_64>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_65>;
+	ex:description "Caesar back to Belgium"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_65>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_66>;
+	ex:description "Caesar back to Northern Italy"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_66>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_67>;
+	ex:description "Senatus consultum ultimum against Caesar"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_67>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_68>;
+	ex:description "Caesar crossed the Rubicon and arrived at Ariminum"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_68>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_69>;
+	ex:description "Pompeius left Rome "^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_69>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_70>;
+	ex:description "Pompeius left Italy"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_70>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_71>;
+	ex:description "Caesar entered Rome and convocate Senat"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_71>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_72>;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_74>;
+	ex:description "Caesar arrived at Gallia Transalpina"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_72>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_73>;
+	ex:description "Caesar arrived at Hispania"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_73>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_74>;
+	ex:description "End of the battle of Irelda"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_74>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_77>;
+	ex:description "Surrender of Massilia to Caesar"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_75>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_74>;
+	ex:description "Curio departed for North Africa"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_76>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_74>;
+	ex:description "Curio was defeated to death"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_77>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_78>;
+	ex:description "Caesar arrived at Brindisi and saled to Greece"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_78>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_79>;
+	ex:description "Pompeius won the battle of Dyrrachium"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_79>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_80>;
+	ex:description "End of the battle of Pharsalus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_80>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/Ev_81>;
+	ex:description "Assassination of Pompeius"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Ev_81>
+	a ex:KeyEventFactoid;
+	ex:mentionedAsPrecedent <http://www.example.com/roman-ontology/entity/>;
+	ex:description "Caesar arrived at Alexandoria"^^xsd:string.
+

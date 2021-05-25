@@ -1,0 +1,2260 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dprr: <http://romanrepublic.ac.uk/rdf/ontology#>.
+@prefix fpo: <https://github.com/johnBradley501/FPO/raw/master/fpo.owl#>.
+@prefix ex: <https://junjun7613.github.io/roman_factoid/roman_factoid.owl#>.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_1>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_1_BG_rel1>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_2_BG_rel1>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel1>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_2>
+	a ex:FamilialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_2_BG_rel2>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_3_BG_rel2>;
+	ex:hasContent "parent-child"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_4>
+	a ex:FamilialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_5_BG_rel4>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel4>;
+	ex:hasContent "siblings"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_5>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_1_BG_rel5>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_4_BG_rel5>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_5_BG_rel5>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_6_BG_rel5>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_7_BG_rel5>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_9>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel9>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_1_BG_rel9>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_7_BG_rel9>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_8_BG_rel9>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_12>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_1_BG_rel12>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel12>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_2_BG_rel12>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_13>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel13>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_2_BG_rel13>;
+	ex:hasContent "influence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_14>
+	a ex:FamilialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel14>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_9_BG_rel14>;
+	ex:hasContent "marital_relationship"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_15>
+	a ex:FamilialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_9_BG_rel15>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_1_BG_rel15>;
+	ex:hasContent "parent-child"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_19>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel19>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel19>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_20>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel20>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel20>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_17>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel17>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_16_BG_rel17>;
+	ex:hasContent "alliance"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_21>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_16_BG_rel21>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel21>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_22>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_8_BG_rel22>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel22>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_23>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_1_BG_rel23>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel23>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_11_BG_rel23>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_26>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel26>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel26>;
+	ex:hasContent "auxiliary"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_27>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel27>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel27>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_28>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel28>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Gr_1_BG_rel28>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_5_BG_rel28>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_12_BG_rel28>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_29>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel29>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_1_BG_rel29>;
+	ex:hasContent "support"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_30>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_12_BG_rel30>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel30>;
+	ex:hasContent "conflict"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_32>
+	a ex:FamilialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel32>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_13_BG_rel32>;
+	ex:hasContent "parent-child"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_33>
+	a ex:FamilialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_13_BG_rel33>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_14_BG_rel33>;
+	ex:hasContent "marital_relationship"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_34>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel34>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_5_BG_rel34>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_15_BG_rel34>;
+	ex:hasContent "conversation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_35>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel35>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_5_BG_rel35>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel35>;
+	ex:hasContent "conversation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_36>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel36>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel36>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_37>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel37>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_16_BG_rel37>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_38>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel38>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_19_BG_rel38>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_39>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel39>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_1_BG_rel39>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_40>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel40>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel40>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_41>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_7_BG_rel41>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_41>;
+	ex:hasContent "immigration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_42>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel42>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_5_BG_rel42>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Gr_1_BG_rel42>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Gr_2_BG_rel42>;
+	ex:hasContent "conversation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_43>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_19_BG_rel43>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel43>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_2_BG_rel43>;
+	ex:hasContent "controle"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_45>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel45>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_19_BG_rel45>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_46>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel46>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel46>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_47>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_23_BG_rel47>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel47>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_48>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_19_BG_rel48>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel48>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_49>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel49>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_19_BG_rel49>;
+	ex:hasContent "conversation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_50>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_19_BG_rel50>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel50>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_51>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel51>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_15_BG_rel51>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_52>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel52>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_20_BG_rel52>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_53>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_19_BG_rel53>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_20_BG_rel53>;
+	ex:hasContent "hospitium"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_54>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_19_BG_rel54>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_15_BG_rel54>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_20_BG_rel54>;
+	ex:hasContent "imprisonment"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_55>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel55>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel55>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_74>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel74>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel74>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_75>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_21_BG_rel75>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel75>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_76>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_25_BG_rel76>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel76>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_22_BG_rel76>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_23_BG_rel76>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_79>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_25_BG_rel79>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_26_BG_rel79>;
+	ex:hasContent "alliance"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_80>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_25_BG_rel80>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_26_BG_rel80>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_81>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_26_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_27_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_29_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_30_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_31_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_32_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_33_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_34_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_35_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_36_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_37_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_38_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_39_BG_rel81>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_40_BG_rel81>;
+	ex:hasContent "alliance"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_82>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel82>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_25_BG_rel82>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_83>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel83>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_5_BG_rel83>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_84>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel84>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_26_BG_rel84>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_85>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel85>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_22_BG_rel85>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_86>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_26_BG_rel86>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel86>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_87>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_5_BG_rel87>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_27_BG_rel87>;
+	ex:hasContent "attack"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_88>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel88>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_21_BG_rel88>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_89>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel89>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_27_BG_rel89>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_90>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel90>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel90>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_91>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel91>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_26_BG_rel91>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_25_BG_rel91>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_92>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel92>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_27_BG_rel92>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_5_BG_rel92>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_93>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel93>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_30_BG_rel93>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_94>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel94>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_29_BG_rel94>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_35_BG_rel94>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_36_BG_rel94>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_95>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_23_BG_rel95>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel95>;
+	ex:hasContent "auxiliary"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_96>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel96>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel96>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_97>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_36_BG_rel97>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel97>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_98>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel98>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel98>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_99>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel99>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_43_BG_rel99>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_100>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel100>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_44_BG_rel100>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_101>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel101>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_45_BG_rel101>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_102>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel102>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_46_BG_rel102>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_103>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel103>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_47_BG_rel103>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_104>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel104>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_48_BG_rel104>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_105>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel105>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_49_BG_rel105>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_106>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel106>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_30_rel106>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_107>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_30_BG_rel107>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_50_BG_rel107>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_51_BG_rel107>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_52_BG_rel107>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_108>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel108>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_31_BG_rel108>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_116>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel116>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_32_BG_rel116>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_117>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel117>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_33_BG_rel117>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_109>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_43_BG_rel109>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_33_BG_rel109>;
+	ex:hasContent "imprisonment"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_110>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_53_BG_rel110>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_31_BG_rel110>;
+	ex:hasContent "imprisonment"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_111>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_46_BG_rel111>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_32_BG_rel111>;
+	ex:hasContent "imprisonment"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_112>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_43_BG_rel112>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_46_BG_rel112>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_53_BG_rel112>;
+	ex:hasContent "alliance"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_113>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel113>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_54_BG_rel113>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_114>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel114>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel114>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_115>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel115>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel115>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_118>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_43_BG_rel118>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_46_BG_rel118>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_53_BG_rel118>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_56_BG_rel118>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_57_BG_rel118>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_58_BG_rel118>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_59_BG_rel118>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_31_BG_rel118>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_60_BG_rel118>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_32_BG_rel118>;
+	ex:hasContent "alliance"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_119>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel119>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel119>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_120>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel120>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel120>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_121>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel121>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_26_BG_rel121>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_122>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel122>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_34_BG_rel122>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_123>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel123>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_43_BG_rel123>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_124>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_35_BG_rel124>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_54_BG_rel124>;
+	ex:hasContent "controle"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_125>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_35_BG_rel125>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_57_BG_rel125>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_126>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_35_BG_rel126>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_61_BG_rel126>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_127>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel127>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_62_BG_rel127>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_128>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_36_BG_rel128>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_62_BG_rel128>;
+	ex:hasContent "controle"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_129>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_36_BG_rel129>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel129>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_130>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel130>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_63_BG_rel130>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_131>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel131>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_64_BG_rel131>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_132>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel132>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_65_BG_rel132>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_133>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel133>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_66_BG_rel133>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_134>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel134>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_67_BG_rel134>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_135>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel135>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_68_BG_rel135>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_136>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel136>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_69_BG_rel136>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_137>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel137>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_70_BG_rel137>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_138>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel138>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_71_BG_rel138>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_139>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel139>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_72_BG_rel139>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_140>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_29_BG_rel140>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_73_BG_rel140>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_141>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel141>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_22_BG_rel141>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_142>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rek142>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_74_BG_rel142>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_143>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel143>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_75_BG_rel143>;
+	ex:hasContent "friendship"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_144>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_75_BG_rel144>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel144>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_145>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_75_BG_rel145>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel145>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_146>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel146>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_37_BG_rel146>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_147>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_76_BG_rel147>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel147>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_148>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel148>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel148>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_149>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_31_BG_rel149>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel149>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_150>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel150>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_26_BG_rel150>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_151>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel151>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_27_BG_rel151>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_152>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_76_BG_rel152>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel152>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_153>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_76_BG_rel153>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel153>;
+	ex:hasContent "imprisonment"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_154>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_76_BG_rel154>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel154>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_155>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel155>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel155>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_156>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel156>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_31_BG_rel156>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_157>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_39_BG_rel157>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel157>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_158>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_39_BG_rel158>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_40_BG_rel158>;
+	ex:hasContent "conflict"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_159>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_40_BG_rel159>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel159>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_160>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel160>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_40_BG_rel160>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_161>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel161>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Gr_6_BG_rel161>;
+	ex:hasContent "convocation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_162>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel162>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel162>;
+	ex:hasContent "conversation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_163>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_4_BG_rel163>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Gr_6_BG_rel163>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_164>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel164>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel164>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_165>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel165>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_41_BG_rel165>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_166>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_41_BG_rel166>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel166>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_167>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel167>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel167>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_168>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_76_BG_rel168>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_42_BG_rel168>;
+	ex:hasContent "mandate"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_169>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel169>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_43_BG_rel169>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_170>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_77_BG_rel170>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel170>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_171>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel171>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_44_BG_rel171>;
+	ex:hasContent "protection"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_172>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel172>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_77_BG_rel172>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_173>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel173>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_78_BG_rel173>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_174>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel174>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_79_BG_rel174>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_175>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel175>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_80_BG_rel175>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_176>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel176>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_81_BG_rel176>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_177>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel177>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_82_BG_rel177>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_178>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_42_BG_rel178>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_45_BG_rel178>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_46_BG_rel178>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_47_BG_rel178>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_48_BG_rel178>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_179>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_42_BG_rel179>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel179>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_180>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel180>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel180>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_181>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel181>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_50_BG_rel181>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_182>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel182>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_51_BG_rel182>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_183>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel183>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel183>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_184>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel184>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_17_BG_rel184>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_52_BG_rel184>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_43_BG_rel184>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_185>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel185>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_26_BG_rel185>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_27_BG_rel185>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_186>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel186>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_53_BG_rel186>;
+	ex:hasContent "protection"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_187>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_84_BG_rel187>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_53_BG_rel187>;
+	ex:hasContent "assassination"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_188>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel188>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_52_BG_rel188>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_189>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_54_BG_rel189>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_55_BG_rel189>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_26_BG_rel189>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_27_BG_rel189>;
+	ex:hasContent "meeting"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_190>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_40_BG_rel190>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_54_BG_rel190>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_55_BG_rel190>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_191>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_26_BG_rel191>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_56_BG_rel191>;
+	ex:hasContent "friendship"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_192>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_26_BG_rel192>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_27_BG_rel192>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_56_BG_rel192>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_57_BG_rel192>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_54_BG_rel192>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_193>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel193>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_54_BG_rel193>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_56_BG_rel193>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_57_BG_rel193>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_194>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_54_BG_rel194>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_36_BG_rel194>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_195>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_54_BG_rel195>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel195>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_196>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel196>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_11_BG_rel196>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_197>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel197>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_85_BG_rel197>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_198>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel198>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_86_BG_rel198>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_199>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel199>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_87_BG_rel199>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_200>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel200>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_88_BG_rel200>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_201>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_50_BG_rel201>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel201>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_202>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel202>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_50_BG_rel202>;
+	ex:hasContent "conversation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_203>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_50_BG_rel203>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_58_BG_rel203>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel203>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_204>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel204>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_17_BG_rel204>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_205>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel205>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel205>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_206>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel206>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel206>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_207>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel207>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_17_BG_rel207>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_208>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel208>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel208>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_209>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel209>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_50_BG_rel209>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_210>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel210>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_58_BG_rel210>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel210>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_211>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_25_BG_rel211>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel211>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_212>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_51_BG_rel212>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel212>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_213>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_42_BG_rel213>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel213>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_214>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_39_BG_rel214>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel214>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_215>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel215>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_59_BG_rel215>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_216>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel216>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_60_BG_rel216>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_217>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel217>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_61_BG_rel217>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_218>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel218>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BG_rel218>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_219>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_23_BG_rel219>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_54_BG_rel219>;
+	ex:hasContent "alliance"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_220>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_22_BG_rel220>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_28_BG_rel220>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_36_BG_rel220>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_32_BG_rel220>;
+	ex:hasContent "alliance"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_221>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_42_BG_rel221>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_84_BG_rel221>;
+	ex:hasContent "alliance"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_222>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_23_BG_rel222>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_22_BG_rel222>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_223>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_42_BG_rel223>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel223>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel223>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_224>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_84_BG_rel224>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel224>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_25_BG_rel224>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_225>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel225>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_63_BG_rel225>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_226>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_32_BG_rel226>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_54_BG_rel226>;
+	ex:hasContent "hospitium"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_227>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_32_BG_rel227>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_23_BG_rel227>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_22_BG_rel227>;
+	ex:hasContent "alliance"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_228>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel228>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel228>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_229>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel229>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel229>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_230>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel230>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_17_BG_rel230>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_231>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_32_BG_rel231>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel231>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_232>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel232>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel232>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_233>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel233>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_39_BG_rel233>;
+	ex:hasContent "mandate"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_234>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_75_BG_rel234>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel234>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_235>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_75_BG_rel235>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel235>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_236>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel236>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_75_BG_rel236>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_237>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_75_BG_rel237>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel237>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_238>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel238>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_64_BG_rel238>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_239>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel239>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_65_BG_rel239>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_240>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_54_BG_rel240>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_65_BG_rel240>;
+	ex:hasContent "encounter"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_241>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_89_BG_rel241>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel241>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_242>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_90_BG_rel242>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel242>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_243>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel243>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_50_BG_rel243>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_244>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel244>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel244>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_245>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel245>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_43_BG_rel245>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_246>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel246>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_68_BG_rel246>;
+	ex:hasContent "conflict"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_247>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel247>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_42_BG_rel247>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_248>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel248>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_91_BG_rel248>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_249>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel249>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_92_BG_rel249>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_250>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel250>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_93_BG_rel250>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_251>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel251>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_94_BG_rel251>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_252>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel252>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_48_BG_rel252>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_253>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel253>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_95_BG_rel253>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_254>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel254>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_96_BG_rel254>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_255>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel255>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_54_BG_rel255>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_256>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel256>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_42_BG_rel256>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_91_BG_rel256>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_92_BG_rel256>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_93_BG_rel256>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_94_BG_rel256>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_48_BG_rel256>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_95_BG_rel256>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_96_BG_rel256>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_54_BG_rel256>;
+	ex:hasContent "mandate"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_257>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel257>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_69_BG_rel257>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_258>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_18_BG_rel258>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel258>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_259>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_18_BG_rel259>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel259>;
+	ex:hasContent "ally"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_260>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_69_BG_rel260>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_97_BG_rel260>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_261>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_69_BG_rel261>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_98_BG_rel261>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_262>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_69_BG_rel262>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_99_BG_rel262>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_263>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel263>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_34_BG_rel263>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_264>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel264>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel264>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_265>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel265>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_7_BG_rel265>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_266>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel266>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_43_BG_rel266>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_267>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_18_BG_rel267>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel267>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_268>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_98_BG_rel268>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel268>;
+	ex:hasContent "ally"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_269>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel269>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel260>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_270>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_70_BG_rel270>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_71_BG_rel270>;
+	ex:hasContent "conflict"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_271>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel271>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_70_BG_rel271>;
+	ex:hasContent "benefaction"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_272>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel272>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel272>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_273>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel273>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_70_BG_rel273>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_274>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_70_BG_rel274>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_72_BG_rel274>;
+	ex:hasContent "meeting"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_275>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel275>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_74_BG_rel275>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_5_BG_rel275>;
+	ex:hasContent "protection"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_276>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_73_BG_rel276>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_74_BG_rel276>;
+	ex:hasContent "conflict"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_277>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_73_BG_rel277>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel277>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_278>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel278>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel278>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_279>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel279>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_73_BG_rel279>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_74_BG_rel279>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_280>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_72_BG_rel280>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel280>;
+	ex:hasContent "ally"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_281>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel281>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel281>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_282>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel282>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel282>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_283>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_72_BG_rel283>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel283>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_284>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel284>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_75_BG_rel284>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_285>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel285>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel285>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_286>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel286>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_61_BG_rel286>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_287>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel287>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_73_BG_rel287>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_74_BG_rel287>;
+	ex:hasContent "meeting"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_288>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_70_BG_rel288>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_72_BG_rel288>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel288>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_289>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_73_BG_rel289>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_74_BG_rel289>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_70_BG_rel289>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_290>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel290>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel290>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_291>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_25_BG_rel291>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel291>;
+	ex:hasContent "friendship"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_292>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_19_BG_rel292>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel292>;
+	ex:hasContent "friendship"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_293>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel293>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_73_BG_rel293>;
+	ex:hasContent "controle"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_294>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel294>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_74_BG_rel294>;
+	ex:hasContent "controle"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_295>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel295>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel295>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_296>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel296>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_15_BG_rel296>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_297>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel297>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_76_BG_rel297>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_298>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel298>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_99_BG_rel298>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_299>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel299>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_93_BG_rel299>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_300>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel300>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_97_BG_rel300>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_301>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel301>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_8_BG_rel301>;
+	ex:hasContent "agitation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_302>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel302>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_71_BG_rel302>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_77_BG_rel302>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_78_BG_rel302>;
+	ex:hasContent "capture"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_303>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_72_BG_rel303>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_77_BG_rel303>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_304>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel304>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_27_BG_rel304>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_305>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel305>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BG_rel305>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_306>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel306>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_43_BG_rel306>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_307>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel307>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_73_BG_rel307>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_74_BG_rel307>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_80_BG_rel307>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_308>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel308>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_80_BG_rel308>;
+	ex:hasContent "kinship"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_309>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel309>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_60_BG_rel309>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_310>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel310>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_81_BG_rel310>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_311>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel311>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel311>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_312>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel312>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_34_BG_rel312>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_313>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel313>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel313>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_314>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_67_BG_rel314>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel314>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_315>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_3_BG_rel315>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel315>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_316>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_21_BG_rel316>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel316>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_317>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel317>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel317>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_82_BG_rel317>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_318>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel318>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel318>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_65_BG_rel318>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_319>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel319>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_60_BG_rel319>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_320>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel320>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_61_BG_rel320>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_321>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel321>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_81_BG_rel321>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_322>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel322>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_50_BG_rel322>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_83_BG_rel322>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_323>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel323>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BG_rel323>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_324>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_18_BG_rel324>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel324>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_325>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_18_BG_rel325>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel325>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_326>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_84_BG_rel326>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_18_BG_rel326>;
+	ex:hasContent "wage_war"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_327>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel327>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_43_BG_rel327>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_328>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_25_BG_rel328>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel328>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_329>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel329>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_84_BG_rel329>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_330>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel330>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel330>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_331>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel331>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel331>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_332>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_27_BG_rel332>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_30_BG_rel332>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_48_BG_rel332>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_34_BG_rel332>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_29_BG_rel332>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_100_BG_rel332>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_333>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel333>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_22_BG_rel333>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_334>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel334>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_43_BG_rel334>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_335>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel335>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_22_BG_rel335>;
+	ex:hasContent "refuge"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_336>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_27_BG_rel336>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel336>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_337>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel337>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel337>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_37_BG_rel337>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_338>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel338>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BG_rel338>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_339>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel339>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel339>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_340>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel340>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel340>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_341>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel341>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel341>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_342>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_85_BG_rel342>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_81_BG_rel342>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_343>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_81_BG_rel343>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel343>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_344>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_86_BG_rel344>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_69_BG_rel344>;
+	ex:hasContent "conspiration"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_345>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_84_BG_rel345>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel345>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_346>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_81_BG_rel346>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel346>;
+	ex:hasContent "join"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_347>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel347>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BG_rel347>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_348>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_81_BG_rel348>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel348>;
+	ex:hasContent "report"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_349>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel349>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_87_BG_rel349>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_350>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_88_BG_rel350>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_69_BG_rel350>;
+	ex:hasContent "capture"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_351>
+	a ex:SocialRelationshipFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_88_BG_rel351>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Comm_41_BG_rel351>;
+	ex:hasContent "friendship"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_352>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel352>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BG_rel352>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_353>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel353>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_43_BG_rel353>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_354>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel354>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_89_BG_rel354>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_355>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BG_rel355>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_37_BG_rel355>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_356>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_37_BG_rel356>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel356>;
+	ex:hasContent "fight"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_357>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_38_BG_rel357>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BG_rel357>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_358>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel358>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BG_rel358>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_359>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel359>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_10_BG_rel359>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_360>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel360>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_43_BG_rel360>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BG_361>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BG_rel361>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_49_BG_rel361>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_1>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel1>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_90_BC_rel1>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_91_BC_rel1>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_2>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_92_BC_rel2>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_90_BC_rel2>;
+	ex:hasContent "agree"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_3>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_93_BC_rel3>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_94_BC_rel3>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_95_BC_rel3>;
+	ex:hasContent "agree"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_4>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_90_BC_rel4>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_93_BC_rel4>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_94_BC_rel4>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_95_BC_rel4>;
+	ex:hasContent "oppose"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_5>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BC_rel5>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_96_BC_rel5>;
+	ex:hasContent "agree"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_6>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_51_BC_rel6>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_97_BC_rel6>;
+	ex:hasContent "agree"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_7>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_51_BC_rel7>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_97_BC_rel7>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_90_BC_rel7>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_92_BC_rel7>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_98_BC_rel7>;
+	ex:hasContent "oppose"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_8>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel8>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_99_BC_rel8>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_51_BC_rel8>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel8>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_9>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_90_BC_rel9>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_91_BC_rel9>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel9>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_99_BC_rel9>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_51_BC_rel9>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel9>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_10>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_90_BC_rel10>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_91_BC_rel10>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel10>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_99_BC_rel10>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_51_BC_rel10>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel10>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_11>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel11>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BC_rel11>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_12>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel12>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BC_rel12>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_96_BC_rel12>;
+	ex:hasContent "join"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_13>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel13>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_100_BC_rel13>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_14>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_101_BC_rel14>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_102_BC_rel14>;
+	ex:hasContent "meeting"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_15>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel15>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_102_BC_rel15>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_16>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_102_BC_rel16>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_103_BC_rel16>;
+	ex:hasContent "meeting"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_17>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_103_BC_rel17>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel17>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_18>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel18>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_79_BC_rel18>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_19>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel19>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_100_BC_rel19>;
+	ex:hasContent "command"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_20>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel20>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_103_BC_rel20>;
+	ex:hasContent "correspondence"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_21>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_101_BC_rel21>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel21>;
+	ex:hasContent "negotiation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_22>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel22>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_103_BC_rel22>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_101_BC_rel22>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_104_BC_rel22>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_105_BC_rel22>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_106_BC_rel22>;
+	ex:hasContent "capitulation"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_23>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_107_BC_rel23>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel23>;
+	ex:hasContent "join"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_24>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_108_BC_rel24>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel24>;
+	ex:hasContent "join"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_25>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel25>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_109_BC_rel25>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel25>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_26>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_6_BC_rel26>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_81_BC_rel26>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_110_BC_rel26>;
+	ex:hasContent "diplomatic_mission"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Rel_BC_27>
+	a ex:ContactFactoid;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_110_BC_rel27>;
+	ex:hasReference <http://www.example.com/roman-ontology/entity/Pers_62_BC_rel27>;
+	ex:hasContent "meeting"^^xsd:string.
+

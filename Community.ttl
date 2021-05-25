@@ -1,0 +1,408 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dprr: <http://romanrepublic.ac.uk/rdf/ontology#>.
+@prefix fpo: <https://github.com/johnBradley501/FPO/raw/master/fpo.owl#>.
+@prefix ex: <https://junjun7613.github.io/roman_factoid/roman_factoid.owl#>.
+
+<http://www.example.com/roman-ontology/entity/Comm_1>
+	a ex:Community;
+	ex:name "Helvetii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_10>
+	a ex:Community;
+	ex:name "Tolosates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_11>
+	a ex:Community;
+	ex:name "Ceutrones"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_12>
+	a ex:Community;
+	ex:name "Graioceli"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_13>
+	a ex:Community;
+	ex:name "Caturiges"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_14>
+	a ex:Community;
+	ex:name "Vocontii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_15>
+	a ex:Community;
+	ex:name "Segusiavi"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_16>
+	a ex:Community;
+	ex:name "Haedui-Ambarri"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_17>
+	a ex:Community;
+	ex:name "pagusTigurinus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_18>
+	a ex:Community;
+	ex:name "Bituriges"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_19>
+	a ex:Community;
+	ex:name "Lingones"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_2>
+	a ex:Community;
+	ex:name "Sequani"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_20>
+	a ex:Community;
+	ex:name "pagusVerbigenus"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_21>
+	a ex:Community;
+	ex:name "Arvernii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_22>
+	a ex:Community;
+	ex:name "Germani"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_23>
+	a ex:Community;
+	ex:name "Treverii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_24>
+	a ex:Community;
+	ex:name "Leucii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_25>
+	a ex:Community;
+	ex:name "Remi"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_26>
+	a ex:Community;
+	ex:name "Suessiones"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_27>
+	a ex:Community;
+	ex:name "Bellovacii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_28>
+	a ex:Community;
+	ex:name "Nervii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_29>
+	a ex:Community;
+	ex:name "Atrebates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_3>
+	a ex:Community;
+	ex:name "Haedui"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_30>
+	a ex:Community;
+	ex:name "Ambiani"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_31>
+	a ex:Community;
+	ex:name "Morini"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_32>
+	a ex:Community;
+	ex:name "Menapii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_33>
+	a ex:Community;
+	ex:name "Caletii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_34>
+	a ex:Community;
+	ex:name "Veliocasses"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_35>
+	a ex:Community;
+	ex:name "Viromandui"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_36>
+	a ex:Community;
+	ex:name "Atuatuci"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_37>
+	a ex:Community;
+	ex:name "Condrusi"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_38>
+	a ex:Community;
+	ex:name "Eburones"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_39>
+	a ex:Community;
+	ex:name "Caeroesii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_4>
+	a ex:Community;
+	ex:name "Rauracii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_40>
+	a ex:Community;
+	ex:name "Paemani"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_41>
+	a ex:Community;
+	ex:name "ResPublicaRomanorum"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_42>
+	a ex:Community;
+	ex:name "Senones"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_43>
+	a ex:Community;
+	ex:name "Venetii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_44>
+	a ex:Community;
+	ex:name "Venellii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_45>
+	a ex:Community;
+	ex:name "Osimii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_46>
+	a ex:Community;
+	ex:name "Curio-soliti"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_47>
+	a ex:Community;
+	ex:name "Esbii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_48>
+	a ex:Community;
+	ex:name "Aulercii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_49>
+	a ex:Community;
+	ex:name "Redones"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_5>
+	a ex:Community;
+	ex:name "Tulingi"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_50>
+	a ex:Community;
+	ex:name "Nantuates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_51>
+	a ex:Community;
+	ex:name "Veragri"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_52>
+	a ex:Community;
+	ex:name "Seduni"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_53>
+	a ex:Community;
+	ex:name "Esvii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_54>
+	a ex:Community;
+	ex:name "confederationOfAtlanticTribes"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_55>
+	a ex:Community;
+	ex:name "confederationOfBelgicTribes"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_56>
+	a ex:Community;
+	ex:name "Osismi"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_57>
+	a ex:Community;
+	ex:name "Lexovii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_58>
+	a ex:Community;
+	ex:name "Namnetes"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_59>
+	a ex:Community;
+	ex:name "Ambiliati"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_6>
+	a ex:Community;
+	ex:name "Latobrigii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_60>
+	a ex:Community;
+	ex:name "Diablintes"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_61>
+	a ex:Community;
+	ex:name "Aulerci-Eburovices"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_62>
+	a ex:Community;
+	ex:name "Sotiates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_63>
+	a ex:Community;
+	ex:name "Tarbelli"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_64>
+	a ex:Community;
+	ex:name "Bigerriones"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_65>
+	a ex:Community;
+	ex:name "Putianii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_66>
+	a ex:Community;
+	ex:name "Vocates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_67>
+	a ex:Community;
+	ex:name "Tarsates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_68>
+	a ex:Community;
+	ex:name "Erusates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_69>
+	a ex:Community;
+	ex:name "Gates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_7>
+	a ex:Community;
+	ex:name "Boii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_70>
+	a ex:Community;
+	ex:name "Ausci"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_71>
+	a ex:Community;
+	ex:name "Garumni"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_72>
+	a ex:Community;
+	ex:name "Siburates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_73>
+	a ex:Community;
+	ex:name "Cocosates"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_74>
+	a ex:Community;
+	ex:name "Sugambri"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_75>
+	a ex:Community;
+	ex:name "Ubii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_76>
+	a ex:Community;
+	ex:name "Britannii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_77>
+	a ex:Community;
+	ex:name "Trinovantes"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_78>
+	a ex:Community;
+	ex:name "Cenimagni"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_79>
+	a ex:Community;
+	ex:name "Segontiaci"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_8>
+	a ex:Community;
+	ex:name "Allobroges"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_80>
+	a ex:Community;
+	ex:name "Ancalites"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_81>
+	a ex:Community;
+	ex:name "Bibroci"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_82>
+	a ex:Community;
+	ex:name "Cassi"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_83>
+	a ex:Community;
+	ex:name "Camtium"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_84>
+	a ex:Community;
+	ex:name "Carnutes"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_85>
+	a ex:Community;
+	ex:name "Grudii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_86>
+	a ex:Community;
+	ex:name "Levaci"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_87>
+	a ex:Community;
+	ex:name "Pleumoxii"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_88>
+	a ex:Community;
+	ex:name "Geidumni"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_89>
+	a ex:Community;
+	ex:name "Segni"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_9>
+	a ex:Community;
+	ex:name "Santones"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_90>
+	a ex:Community;
+	ex:name "Condrusi"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_91>
+	a ex:Community;
+	ex:name "Parisi"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_92>
+	a ex:Community;
+	ex:name "Pictones"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_93>
+	a ex:Community;
+	ex:name "Cadurci"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_94>
+	a ex:Community;
+	ex:name "Turoni"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_95>
+	a ex:Community;
+	ex:name "Lemovices"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_96>
+	a ex:Community;
+	ex:name "Andes"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_97>
+	a ex:Community;
+	ex:name "Ruteni"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_98>
+	a ex:Community;
+	ex:name "Nitiobroges"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_99>
+	a ex:Community;
+	ex:name "Gabali"^^xsd:string.
+
+<http://www.example.com/roman-ontology/entity/Comm_100>
+	a ex:Community;
+	ex:name "Caletes"^^xsd:string.
+
